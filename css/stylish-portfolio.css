@@ -399,3 +399,60 @@ a:hover, a:focus, a:active {
 .bg-primary {
   background-color: #f1877f;
 }
+
+.portfolio-item:hover .caption {
+  background-color: #6c5eae;
+  -webkit-clip-path: inset(2rem);
+  clip-path: inset(2rem);
+}
+
+footer.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: 7f59ac;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer.footer .social-link:hover {
+  background-color: #f1877f;
+  text-decoration: none;
+}
+
+a {
+  color: #f1877f;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #5b2f8d;
+}
+
+#sidebar-wrapper {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  -webkit-transform: translateX(250px);
+  transform: translateX(250px);
+  background: #6c5eae;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-faded {
+  color: rgba(207, 180, 191, 0.7);
+}
